@@ -1,0 +1,49 @@
+Build output check failed:
+    Regex: 'warning D9002'
+    Output line: 'cl : 명령줄  warning D9002: 알 수 없는 '-std=c99' 옵션을 무시합니다. [C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\cmTC_8d635.vcxproj]'
+Compilation failed:
+    source file: 'C:/Users/jun30/Documents/GitHub/OPEN_CV/test1/build/CMakeFiles/CMakeTmp/src.c'
+    check option: ' /DWIN32 /D_WINDOWS /W3  /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /Gy /bigobj /Oi  /fp:precise     /MP -std=c99'
+===== BUILD LOG =====
+Change Dir: C:/Users/jun30/Documents/GitHub/OPEN_CV/test1/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_8d635.vcxproj /p:Configuration=Release /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n && MSBuild version 17.5.1+f6fdcf537 for .NET Framework
+빌드 시작: 2023-07-13(목) 오전 12:25:11
+Included response file: C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.rsp
+
+1 노드의 "C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\cmTC_8d635.vcxproj" 프로젝트(기본 대상)입니다.
+PrepareForBuild:
+  "cmTC_8d635.dir\Release\" 디렉터리를 만들고 있습니다.
+  "C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\Release\" 디렉터리를 만들고 있습니다.
+  "cmTC_8d635.dir\Release\cmTC_8d635.tlog\" 디렉터리를 만들고 있습니다.
+InitializeBuildStatus:
+  "AlwaysCreate"이(가) 지정되었기 때문에 "cmTC_8d635.dir\Release\cmTC_8d635.tlog\unsuccessfulbuild"을(를) 만들고 있습니다.
+ClCompile:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\CL.exe /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d635.dir\Release\\" /Fd"cmTC_8d635.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj /bigobj -std=c99 C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\src.c
+  Microsoft (R) C/C++ 최적화 컴파일러 버전 19.35.32217.1(x64)
+  src.c
+  Copyright (c) Microsoft Corporation. All rights reserved.
+  cl /c /W3 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /D _MBCS /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d635.dir\Release\\" /Fd"cmTC_8d635.dir\Release\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue  /bigobj /bigobj -std=c99 C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\src.c
+cl : 명령줄  warning D9002: 알 수 없는 '-std=c99' 옵션을 무시합니다. [C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\cmTC_8d635.vcxproj]
+Link:
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:"C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\Release\cmTC_8d635.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"C:/Users/jun30/Documents/GitHub/OPEN_CV/test1/build/CMakeFiles/CMakeTmp/Release/cmTC_8d635.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/jun30/Documents/GitHub/OPEN_CV/test1/build/CMakeFiles/CMakeTmp/Release/cmTC_8d635.lib" /MACHINE:X64  /machine:x64 cmTC_8d635.dir\Release\src.obj
+  cmTC_8d635.vcxproj -> C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\Release\cmTC_8d635.exe
+FinalizeBuildStatus:
+  "cmTC_8d635.dir\Release\cmTC_8d635.tlog\unsuccessfulbuild" 파일을 삭제하고 있습니다.
+  "cmTC_8d635.dir\Release\cmTC_8d635.tlog\cmTC_8d635.lastbuildstate"에 연결(touching)하고 있습니다.
+"C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\cmTC_8d635.vcxproj" 프로젝트를 빌드했습니다(기본 대상).
+
+빌드했습니다.
+
+"C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\cmTC_8d635.vcxproj"(기본 대상)(1)->
+(ClCompile 대상) -> 
+  cl : 명령줄  warning D9002: 알 수 없는 '-std=c99' 옵션을 무시합니다. [C:\Users\jun30\Documents\GitHub\OPEN_CV\test1\build\CMakeFiles\CMakeTmp\cmTC_8d635.vcxproj]
+
+    경고 1개
+    오류 0개
+
+경과 시간: 00:00:00.59
+
+
+===== END =====
+
